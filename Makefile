@@ -180,7 +180,7 @@ SolarFlare.o: SolarFlare.h SolarFlare.cc TimeCoord.h RFI.h IntegPeriod.h
 	$(CC) -c SolarFlare.cc
 
 chapman.o: Makefile chapman.for
-	f77 -g -c chapman.for
+	f77 -ff2c -g -c chapman.for
         
 clean:
 	rm -f sac sacmon sacmkwav saciq sacxray sacrt sacmodel sacmerge \
