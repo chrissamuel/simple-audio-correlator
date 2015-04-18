@@ -36,6 +36,14 @@ dependent libraries) only need to issue the command...
 executable called 'sac'. Please let me know if you had to alter the Makefile 
 or the code to get sac to build on your system. 
 
+For Ubuntu you will need to install the following packages:
+
+build-essential
+gfortran
+pgplot5
+libpng-dev
+libx11-dev
+
 Note for non-Debian users: Steve Heaton has advised that he didn't need
 the -lpng library with RedHat. In Debian pgplot depends on it.
 
